@@ -1,1 +1,1 @@
-add_lunch_combo tesla_flo-userdebug
+add_lunch_combo tipsy_flo-userdebug
