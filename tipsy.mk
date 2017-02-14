@@ -13,8 +13,7 @@
 # limitations under the License.
 
 # Inherit some common Tesla stuff.
-$(call inherit-product, vendor/tesla/config/common_full_tablet_wifionly.mk)
-$(call inherit-product, vendor/tesla/config/caf_fw.mk)
+$(call inherit-product, vendor/tipsy/config/common_full_tablet_wifionly.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/tesla/config/nfc_enhanced.mk)
@@ -27,7 +26,7 @@ $(call inherit-product, device/asus/flo/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := flo
-PRODUCT_NAME := tesla_flo
+PRODUCT_NAME := tipsy_flo
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := asus
