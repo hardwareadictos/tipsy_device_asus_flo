@@ -16,7 +16,7 @@
 $(call inherit-product, vendor/tipsy/config/common_full_tablet_wifionly.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/tesla/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/tipsy/config/nfc_enhanced.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
